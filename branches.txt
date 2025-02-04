@@ -1,3 +1,6 @@
 git branch -d: delete, failed if not merged
 git branch -D: delete
 
+git switch <branch_name>
+git switch -c <branch_name> <start-point>: create a new branch_name from a start-point (SHA id) and check it out
+
